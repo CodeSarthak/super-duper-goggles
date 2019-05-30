@@ -1,0 +1,27 @@
+.vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.text{
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 50px;
+	font-family: fantasy;
+	text-align: center;
+	
+
+
+}
+
+
+@keyframes buttonA {
+  0% {display: none;}
+  100% {display: block;}
+}
+
