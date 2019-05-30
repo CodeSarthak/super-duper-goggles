@@ -1,5 +1,4 @@
 .vid {
-  position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -13,10 +12,16 @@
 	width: 100%;
 	font-size: 50px;
 	font-family: fantasy;
-	text-align: center;
+  text-align: center;
+ 
 	
 
 
+}
+.box{
+  width: 100%;
+  height: 100vh;
+  margin-top: 100vh
 }
 
 
