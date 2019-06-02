@@ -2,26 +2,26 @@
 <html style="scroll-behavior: smooth;">
 <head>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script>
+	setInterval(function(){ window.scrollTo(0,750); }, 8000);
+    </script>
 	<title></title>
 </head>
 <body onload="func()">
 
-	<video autoplay loop class = "vid">
-  <source src="The-Launch.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+	<video autoplay class = "vid">
+    <source src="The-Launch.mp4" type="video/mp4">
+    </video>
 
-<div class = "text">Super Dupper Goggles</div>
+<div class = "text"><h1>Super Dupper Goggles</h1></div>
 
-<div class="box"></div>
+<div class="container">
+  <img src="glasses.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
 
-<script>
-	function func(){
-		setInterval(function(){ window.scrollTo(0,3000); }, 2000);
-	}
-		
-	
-	
-</script>
+
+
 </body>
 </html>

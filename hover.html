@@ -1,22 +1,7 @@
-.vid {
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.text{
-	background: rgba(0, 0, 0, 0.5);
-	position: fixed;
-	width: 100%;
-  height: 20%;
-	font-size: 50px;
-	font-family: fantasy;
-  text-align: center;
-  vertical-align: text-bottom;
- 
-}
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 .container {
   position: relative;
   width: 50%;
@@ -24,9 +9,8 @@
 
 .image {
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
-  
 }
 
 .overlay {
@@ -57,3 +41,18 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+</style>
+</head>
+<body>
+
+<h2>Slide in Overlay from the Top</h2>
+
+<div class="container">
+  <img src="glasses.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+ 
+</body>
+</html>
